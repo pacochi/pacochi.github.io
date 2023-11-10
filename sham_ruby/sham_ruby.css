@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('../common/fef.css');
+/*
+@font-face {
+	font-family: 'Roboto';
+	src:local("Roboto"), url(./roboto-regular-webfont.woff2) format('woff2');
+	font-weight:normal;
+	font-style:normal;
+}
+*/
+input, button {
+	font-family: 'Roboto';
+}
+main {
+	display: block flex;
+	align-items: start;
+}
+#in {
+	display: block;
+	width: 30vw;
+	position: sticky;
+	top: 0.5rem;
+}
+#in label {
+	display: inline-block;
+	width: 3rem;
+}
+#comb {
+	display: block flex;
+	flex-wrap: wrap;
+	align-items: first baseline;
+	width: 70vw;
+}
+#comb label {
+	display: block;
+	width: 6rem;
+	height: 6rem;
+	margin: 0.5rem 0.1em;
+	text-align: center;
+	line-height: 0.5;
+}
+button {
+	display: block;
+	font-size: x-large;
+	margin: 0.5rem auto;
+	padding: 0.5rem;
+}
+label span {
+	font-size: x-small;
+}
+input {
+	width: 80%;
+}
+#result {
+	font-size: xx-large;
+}
+#copy {
+	font-size: x-large;
+}
