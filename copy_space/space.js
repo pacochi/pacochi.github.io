@@ -1,0 +1,1 @@
+document.querySelectorAll('button').forEach(b => b.addEventListener('click', e => navigator.clipboard.writeText(e.target.textContent).then(_ => (e.target.nodeName == 'BUTTON' ? e.target : e.target.parentNode).className = 'copy', _ => _)));

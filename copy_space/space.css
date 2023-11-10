@@ -1,0 +1,49 @@
+@import url('../common/fef.css');
+
+button {
+	background-color: #868;
+	border-color: #868;
+	font-size: xx-large;
+	padding: 0.5rem 2rem;
+	height: 5rem;
+	transition: 5s;
+}
+
+button:active {
+	background-color: #FAF;
+	transition: 0s;
+}
+
+/*
+button.copy {
+}
+*/
+
+button span {
+	background-color: #FFF;
+}
+
+main {
+	display: block flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+}
+
+figure {
+	margin: 0.5rem 1rem;
+}
+
+figcaption {
+	font-size: x-small;
+	max-width: 5rem;
+}
+
+figcaption span {
+	display: block;
+	font-size: small;
+}
+
+textarea {
+	width: 90vw;
+	height: 10rem;
+}

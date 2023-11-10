@@ -1,0 +1,42 @@
+@import url('../common/fef.css');
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+textarea {
+	width: 90vw;
+	height: 3em;
+	background-color: #FFF;
+	color: #323;
+	border: 1px solid #323;
+	vertical-align: top;
+}
+
+button {
+	background-color: #FDF;
+	color: #323;
+	font-size: large;
+	white-space: pre-line;
+	transition: 5s;
+	text-align: left;
+	margin: 0.5rem;
+}
+
+button:active {
+	background-color: #FAF;
+	transition: 0s;
+}
+
+button:disabled {
+	visibility: hidden;
+}
+
+address {
+	position: absolute;
+	z-index: 1;
+	bottom: 0px;
+	right: 0px;
+	padding: 1em;
+}

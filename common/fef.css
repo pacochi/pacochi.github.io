@@ -7,3 +7,10 @@ html {
 h1 {
 	font-size: medium;
 }
+
+address {
+	padding: 1em;
+	font-size: x-small;
+	font-style: normal;
+	text-align: right;
+}
